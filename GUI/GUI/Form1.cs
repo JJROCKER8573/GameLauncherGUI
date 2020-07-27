@@ -26,7 +26,8 @@ namespace GUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            //Enter the name of the .exe file here.
+            Process.Start("Game.exe");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,7 +37,14 @@ namespace GUI
 
         private void button3_Click_1(object sender, EventArgs e)
         {
+            //Copy and paste the link to your website, or you can keep it empty if you don't have one.
             Process.Start("http://jahinhossain.000webhostapp.com/");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //Insert the link to a report section of your website.
+            Process.Start("");
         }
     }
 }
